@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Nunito:wght@500&family=Spinnaker&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="aakash.css">
+    <title>ExportData</title>
+</head>
+<body>
+    <div id="left-nav" class="left-nav">
+      <div class="title alg" align="center">MAGENTA.</div>
+        <div class="pic">
+          <img src="imagesarw1/userpic.png" alt="" />
+        </div>
+  
+        <div class="name fo">
+          <h4><span class="col">U</span>sername</h4>
+        </div>
+  
+        <div class="desc fo lkj">
+          <p><span class="col">S</span>hopkeeper</p>
+        </div>
+  
+        <div class="graph">
+          <img class="img-graph" src="imagesarw1/line_chart.png" alt="" />
+        </div>
+  
+        <div id="dash" class="dash">
+          <ul>
+            <li class="dashboard fo">
+              <img class="a" src="imagesarw1/dashboard.png" alt="" /><a href="index.html"
+                >Dashboard</a
+              >
+            </li>
+            <li class="data fo">
+              <img class="a" src="imagesarw1/export.png" alt="" />
+              <a class="export" href="">Export data</a>
+            </li>
+            <li class="analysis fo">
+              <img class="a" src="imagesarw1/data-analytics.png" alt="" /><a href="analysis.html"
+                >Analysis</a
+              >
+            </li>
+          </ul>
+        
+        <div class="info fo">
+          <p class="profile">My profile</p>
+          <ul>
+            <li class="portfolio">
+              <img class="a" src="imagesarw1/user.png" alt="" /><a href="index1.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="settings">
+              <img class="a" src="imagesarw1/setting.png" alt="" /><a href=""
+                >Settings</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+        <button id="mode" class="mode fo" onclick="toggle()">Dark Mode</button>
+      </div>
+      
+    <div class="nav" align="center">
+        <h1>Export Your Data</h1>
+    </div>
+        <div class="box1" >
+            <img src="imagesarw1/cloud.png.jpg" alt="Excel img" class="img1">
+            <form action="/action_page.php">
+                <input type="file" id="actual-btn" hidden/>
+                <label for="actual-btn"> Upload</label>
+                <p> Upload your Excel file.</p>
+                <input type="submit" value="Submit" class="submit" >
+            </form>
+        </div>
+        <div class="box2" >
+            <img src="imagesarw1/camera.jpg" alt="camera" class="img2">
+            <form action="/action_page.php">
+                <input type="file" id="actual-btn" hidden/>
+                <label for="actual-btn">Upload</label>
+                <p>Upload your Photograph.</p>
+                <input type="submit" value="Submit" class="submit" >
+            </form>
+        </div>
+        <div class="box3" >
+            <img src="imagesarw1/mic.png.jpg" alt="mic" class="img3">
+            <form action="/action_page.php">
+                <input type="file" id="actual-btn" hidden/>
+                <label for="actual-btn">Upload</label>
+                <p>Upload via Audio. </p>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+</body>
+<script src="index.js"></script>
+</html>

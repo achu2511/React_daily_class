@@ -1,0 +1,244 @@
+
+.s2 {
+  text-align: left;
+  margin-left: 23%;
+  /* margin-right: 20%; */
+  float: left;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+  /* background-color: aqua; */
+  position: fixed;
+  /* border: 1px solid blue; */
+}
+h1{
+  padding: 9px;
+}
+
+.btn {
+  background-color: rgb(250, 220, 215);
+  height: 7vh;
+  border: none;
+  color: rgb(171, 28, 95);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 20px 4px;
+  opacity: 0.6;
+  transition: 0.3s;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 1;
+  transform: scale(1.2);
+}
+.btn:hover:not(.active) {
+  background-color: rgb(250, 220, 215);
+}
+.active {
+  background-color: rgb(250, 220, 215);
+}
+
+/* #svg {
+  top: 60%;
+  left: 50%;
+  width: 30%;
+  height: 80%;
+  position: relative;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+} */
+/* .ing {
+  background-color: aqua;
+  width: 500px;
+  height: 400px;
+  margin-left: 10%;
+  margin-top: 5%;
+} */
+* {
+  font-family: "Spinnaker", sans-serif;
+  /* background-color: rgb(250, 220, 215); */
+  color: rgb(171, 28, 95);
+}
+.left-nav
+{
+    /* background-color: rgb(230, 230, 230); */
+    width: 23%;
+    height: 100%;
+    /* float: left; */
+    position: fixed;
+    border-radius: 10px;
+}
+img
+{
+    width: 5vh;
+    height: 5vh;
+    padding: 3px;
+    position: absolute;
+}
+.pic#outer {overflow: hidden;}
+.pic
+{
+    width: 40px;
+    background-color: #d2d5d6;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 60px;
+    /* overflow: hidden; */
+    /* box-shadow: .2px .2px 2px .2px #999797; */
+}
+.name
+{
+    /* font-size: 15px; */
+    color: #080808;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 65px;
+    top: 65px;
+}
+.desc
+{
+    color: #717272;
+    font-size: 12px ;
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 3px;
+    top: 80px;
+    font-weight: 10;
+}
+.analysis{
+    color: #a50b5e;
+    /* position: absolute; */
+    /* margin-left: 0px; */
+}
+.graph
+{
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 80%;
+    height: 28%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgb(141, 141, 141);
+    transition: all 0.5s ease-out;
+}
+.img-graph
+{
+  margin-top: -3px;
+  margin-left: -3px;
+    width: 100%;
+    height: 100%;
+}
+.dash
+{
+    margin-top: 73%;
+    margin-left :28px; 
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    /* padding: 30px; */
+    height: 40%;
+    width: 80%;
+    box-shadow: 1px 1px 10px 1px rgb(141, 141, 141);
+}
+
+.dashboard , .data , .analysis
+{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.jkl{
+  margin-left: 5px;
+  margin-top: -20px;
+}
+a{
+    text-decoration: none;
+    color: #373838;
+    transition: all 0.3s ease-out;
+}
+a:hover
+{
+    color: #a50b5e;
+}
+.info
+{
+    /* margin-top: 135%;
+    margin-left :28px;  */ 
+    /* background-color: #ffffff; */
+    /* border-radius: 15px;
+    position: absolute; */
+    /* padding: 30px; */
+    /* height: 20%;
+    width: 80%; */
+    /* box-shadow: 1px 1px 10px 1px rgb(141, 141, 141); */
+} 
+.portfolio 
+{
+    /* position: relative; */
+    /* list-style-type: none; */
+    /* position: relative; */
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.settings
+{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.a{
+    width: 13px;
+    height: 13px;
+    left: 5px;
+}
+.profile
+{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.graph:hover{
+    transform: scale(1.1);
+    /* transition: all 0.5s ease-out; */
+}
+#mode
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #080808;
+    color: white;
+    position: relative;
+    margin-top: 34px;
+    margin-left: 65px;
+    cursor: pointer;
+}
+.title{
+  font-family: 'Spinnaker', sans-serif;
+  font-size: 25px;
+  position: relative;
+  top: -100px;
+  /* padding-top: 15px;
+  padding-left: 10px;
+  /* width: 60%; */
+  padding-bottom: 10px; */
+  background-color: rgb(250, 215, 228);
+}
+
+.mine{
+  margin-left: 90px;
+}
+.fo{
+  font-family: 'Nunito', sans-serif;
+}

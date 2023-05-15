@@ -1,0 +1,358 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    font-family: 'Nunito', sans-serif;
+}
+.left{
+    width: 23%;
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+}
+.right{
+    width: 77%;
+    background-color: rgb(255, 239, 242);
+}
+.title{
+    font-family: 'Spinnaker', sans-serif;
+    font-size: 25px;
+    margin-top: 1px;
+    padding-top: 15px;
+    padding-left: 10px;
+    /* width: 60%; */
+    padding-bottom: 10px;
+    background-color: rgb(250, 215, 228);
+}
+.head{
+    display: flex;
+}
+.main-head{
+    padding: 25px;
+    padding-left: 70px;
+    margin-top: 2px;
+}
+.left-head{
+    font-size: 20px;
+    margin: 15px;
+}
+.sign{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
+    margin-right: -19px;
+    margin-top: -0px;
+}
+.btn{
+    height: 30px;
+    width: 120px;
+    margin-top: 28px;
+    margin-left: 560px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 15px;
+}
+.adm-icon{
+    height: 15px;
+    width: 15px;
+    margin-left: -50px;
+    margin-top: 0px;
+}
+.sub-head{
+    margin-left: 70px ;
+    margin-top: 15px;
+    font-size: 35px;
+    padding-top: 10px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.card{
+    height: 230px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 6px 1px rgb(223, 223, 223);
+    margin-left: 45px;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: all 0.2s ease-out;
+}
+.cards{
+    margin-left: 35px;
+}
+.card-img{
+    height: 150px;
+    width: 240px;
+    margin-left: 25px;
+    margin-top: 13px;
+    
+    border-radius: 20px;
+}
+.tw{
+    height: 150px;
+    width: 290px;
+    margin-left:5px;
+    margin-top: 13px;
+    
+    border-radius: 20px;
+}
+.kjh{
+    margin-left: 105px;
+}
+.c1-hd{
+    text-align: center;
+    margin-top: 180px;
+    font-size: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.cards{
+    margin-top: 10px;
+    display: flex;
+}
+
+.hv:hover{
+    transform: scale(1.05);
+}
+
+.recent{
+    margin-left: 70px ;
+    margin-top: 45px;
+    font-size: 30px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.line{
+    width: 85%;
+    margin-left: 70px;
+    margin-top: -5px;
+    border-top: 1px solid rgb(250, 220,215);
+}
+.rec{
+    display: flex;
+    margin-left: 80px;
+}
+.nam{
+    font-size: 20px;
+    margin-left: -20px;
+    margin-top: 15px;
+}
+.j{
+    margin-left: 345px;
+}
+.cont-rec{
+    width: 50%;
+    height: 160px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 6px 1px rgb(223, 223, 223);
+}
+
+.k{
+    margin-top: 20px;
+    font-size: 17px;
+    margin-left: -20px;
+}
+.i{
+    margin-left: 325px;
+}
+.l{
+    width: 85%;
+    margin-left: 40px;
+    margin-top: 10px;
+    border-top: 1px solid rgb(250, 220,215);
+}
+.bill-cont{
+    display: flex;
+}
+.time{
+    margin-top: 30px;
+    height: 130px;
+    width: 180px;
+    margin-left: 180px;
+}
+h2{
+    margin-left: 10px;
+}
+.hk{
+    display: flex;
+}
+.col{
+    color: rgb(171, 28, 95);
+}
+.m{
+    margin-left: 345px;
+    font-size: 17px;
+}
+
+.left-nav
+{
+    /* background-color: rgb(230, 230, 230); */
+    width: 23%;
+    height: 100%;
+    /* float: left; */
+    position: fixed;
+    border-radius: 10px;
+}
+img
+{
+    width: 5vh;
+    height: 5vh;
+    padding: 3px;
+    position: absolute;
+}
+.pic#outer {overflow: hidden;}
+.pic
+{
+    width: 40px;
+    background-color: #d2d5d6;
+    height: 40px;
+    border-radius: 50px;
+    margin-left: 25px;
+    margin-top: 60px;
+    /* overflow: hidden; */
+    /* box-shadow: .2px .2px 2px .2px #999797; */
+}
+.name
+{
+    /* font-size: 15px; */
+    font-weight: bold;
+    position: absolute;
+    margin-left: 65px;
+    top: 65px;
+}
+.desc
+{
+    color: #717272;
+    font-size: 12px ;
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 3px;
+    top: 80px;
+    font-weight: 10;
+}
+.ds{
+    color: #a50b5e;
+}
+.graph
+{
+    margin-top: 20px;
+    margin-left: 28px;
+    width: 80%;
+    height: 28%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    box-shadow: 1px 1px 10px 1px rgb(141, 141, 141);
+    transition: all 0.5s ease-out;
+}
+.img-graph
+{
+  margin-top: -3px;
+  margin-left: -3px;
+    width: 100%;
+    height: 100%;
+}
+.dash
+{
+    margin-top: 73%;
+    margin-left :28px; 
+    background-color: #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    /* padding: 30px; */
+    height: 40%;
+    width: 80%;
+    box-shadow: 1px 1px 10px 1px rgb(141, 141, 141);
+}
+
+.dashboard , .data , .analysis
+{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #373838;
+    transition: all 0.3s ease-out;
+}
+a:hover
+{
+    color: #a50b5e;
+}
+.info
+{
+    /* margin-top: 135%;
+    margin-left :28px;  */ 
+    /* background-color: #ffffff; */
+    /* border-radius: 15px;
+    position: absolute; */
+    /* padding: 30px; */
+    /* height: 20%;
+    width: 80%; */
+    /* box-shadow: 1px 1px 10px 1px rgb(141, 141, 141); */
+} 
+.portfolio 
+{
+    /* position: relative; */
+    /* list-style-type: none; */
+    /* position: relative; */
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.settings
+{
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+
+.a{
+    width: 13px;
+    height: 13px;
+    left: 5px;
+}
+.profile
+{
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.graph:hover{
+    transform: scale(1.1);
+    /* transition: all 0.5s ease-out; */
+}
+#mode
+{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #080808;
+    color: white;
+    position: relative;
+    margin-top: 34px;
+    margin-left: 65px;
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+.mine{
+    margin-left: 90px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+  }
+.j2{
+    font-size: 15px;
+
+  }
+
+  .fo{
+    font-family: 'Nunito', sans-serif;
+  }

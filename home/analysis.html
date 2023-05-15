@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Analysis</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="aswin.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&family=Nunito:wght@500&family=Spinnaker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="body">
+    <div id="left-nav" class="left-nav">
+      <div class="pic">
+        <img src="imagesarw1/userpic.png" alt="" />
+      </div>
+
+      <div class="name mine">
+        <h4>Username</h4>
+      </div>
+
+      <div class="desc mine">
+        <p >Shopkeeper</p>
+      </div>
+
+      <div class="graph">
+        <img class="img-graph" src="imagesarw1/line_chart.png" alt="" />
+      </div>
+
+      <div id="dash" class="dash">
+        <ul>
+          <li class="dashboard fo">
+            <img class="a" src="imagesarw1/dashboard.png" alt="" /><a  href="index.html"
+              >Dashboard</a
+            >
+          </li>
+          <li class="data fo">
+            <img class="a" src="imagesarw1/export.png" alt="" />
+            <a href="aakash.html">Export data</a>
+          </li>
+          <li class="analysis fo">
+            <img class="a" src="imagesarw1/data-analytics.png" alt="" /><a href="" class="analysis"
+              ><p class="jkl">Analysis</p></a
+            >
+          </li>
+        </ul>
+      
+      <div class="info">
+        <p class="profile fo">My profile</p>
+        <ul>
+          <li class="portfolio fo">
+            <img class="a" src="imagesarw1/user.png" alt="" /><a href="index1.html"
+              >Portfolio</a
+            >
+          </li>
+          <li class="settings fo">
+            <img class="a" src="imagesarw1/setting.png" alt="" /><a href=""
+              >Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+      <button id="mode" class="mode" onclick="toggle()">Dark Mode</button>
+    </div>
+    <div class="title" align="center">MAGENTA.</div>
+</div>
+    <div class="main">
+      <div class="s1"></div>
+      <div class="s2">
+        <div style="background-color: rgb(250, 220, 215)">
+          <h1 style="margin-left: 31%">ANALYSIS</h1>
+          
+        </div>
+        <button
+          id="btn1"
+          class="btn"
+          style="margin-left: 6%"
+          type="button"
+          onclick="document.getElementById('i1')
+          .src='imagesarw1/today.png'"
+        >
+          Today
+        </button>
+        <button
+          id="btn2"
+          class="btn"
+          style="margin-left: 6%"
+          type="button"
+          onclick="document.getElementById('i1')
+          .src='imagesarw1/week.png'"
+        >
+          Weekly
+        </button>
+        <button
+          id="btn3"
+          class="btn"
+          style="margin-left: 6%"
+          type="button"
+          onclick="document.getElementById('i1')
+          .src='imagesarw1/month.png'"
+        >
+          Monthly
+        </button>
+        <button
+          id="btn4"
+          class="btn"
+          style="margin-left: 6%"
+          type="button"
+          onclick="document.getElementById('i1')
+          .src='imagesarw1/year.png'"
+        >
+          Yearly
+        </button>
+        <br />
+        <img
+          id="i1"
+          src="imagesarw1/stocks.png"
+          style="
+            height: 400px;
+            width: 600px;
+            margin-left: 200px;
+            margin-top: 40px;
+          "
+          align="center"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
